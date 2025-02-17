@@ -1,0 +1,51 @@
+# Dependency directories
+node_modules/
+
+# Build files
+.next/
+out/
+dist/
+
+# Cache files
+.cache/
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs
+*.log
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# System files
+Thumbs.db
+
+# Debug files
+*.debug
+
+# Local development files
+*.local
+
+# Testing files
+coverage/
+.nyc_output/
+
+# Yarn/PNPM files
+.yarn/
+.pnpm/
+.yarnrc
+.pnpmfile.js
+
+# Lock files (optional, choose one based on your package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional: Exclude local development files
+*.local.*
