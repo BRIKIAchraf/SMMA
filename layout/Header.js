@@ -19,18 +19,11 @@ const Header = () => {
             <div className="main-menu">
               <nav className="navbar-nav m-auto" id="navbarNav">
                 <ul>
-                  <li className="dropdown-nav">
-                    <a href="#" className="text_hover_animaiton">
+                  <li>
+                    <a href="/" className="text_hover_animaiton">
                       <TextHoverAnimation text={"Home"} />
                     </a>
-                    <ul className="submenu">
-                      <li>
-                        <Link href="/">Home 1</Link>
-                      </li>
-                      <li>
-                        <Link href="index_2">Home 2</Link>
-                      </li>
-                    </ul>
+                    <ul className="submenu"></ul>
                   </li>
                   <li>
                     <Link href="about_us" className="text_hover_animaiton">
@@ -42,38 +35,14 @@ const Header = () => {
                       <TextHoverAnimation text={"Pages"} />
                     </a>
                     <ul className="submenu">
-                      <li className="dropdown-nav">
-                        <a href="#">Services</a>
-                        <ul className="submenu">
-                          <li>
-                            <Link href="services">Service List</Link>
-                          </li>
-                          <li>
-                            <Link href="service_details">Service Details</Link>
-                          </li>
-                        </ul>
+                      <li>
+                        <a href="services">Services</a>
                       </li>
-                      <li className="dropdown-nav">
-                        <a href="#">Portfolio</a>
-                        <ul className="submenu">
-                          <li>
-                            <Link href="portfolio">Portfolio List</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio_2">Portfolio Grid</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio_details">
-                              Portfolio Details
-                            </Link>
-                          </li>
-                        </ul>
+                      <li>
+                        <a href="portfolio_2">Portfolio</a>
                       </li>
                       <li>
                         <Link href="team_page">Team List</Link>
-                      </li>
-                      <li>
-                        <Link href="error">404</Link>
                       </li>
                     </ul>
                   </li>
@@ -87,9 +56,6 @@ const Header = () => {
                       </li>
                       <li>
                         <Link href="blog_list">Blog List</Link>
-                      </li>
-                      <li>
-                        <Link href="blog_details">Blog Details</Link>
                       </li>
                     </ul>
                   </li>

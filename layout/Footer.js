@@ -2,21 +2,21 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="pt_120 xs_pt_80">
+    <footer className="pt_50 xs_pt_20">
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-xl-4 col-sm-8 col-md-6 col-lg-4">
             <div className="footer_content">
               <Link className="footer_logo" href="/">
                 <img
-                  src="images/footer_logo.jpg"
+                  src="images/logo.png"
                   alt="Fxotary"
                   className="img-fluid w-100"
                 />
               </Link>
               <p>
-                Qorem ipsum dolor sit amet, consectetur adipiscing elit aut elit
-                tellus luctus nec ulla corper mattis aulvinar daibus leo.
+                Xpira is a dynamic digital agency specializing in innovative
+                solutions that drive business growth
               </p>
               <ul className="d-flex flex-wrap">
                 <li>
@@ -32,11 +32,6 @@ const Footer = () => {
                 <li>
                   <a href="#">
                     <i className="fab fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fab fa-pinterest-p" />
                   </a>
                 </li>
               </ul>
@@ -110,7 +105,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12">
             <div className="footer_copyright">
-              <p>Copyright © 2024 Codeefly. All rights reserved.</p>
+              <p>Copyright © 202 Codeefly. All rights reserved.</p>
             </div>
           </div>
         </div>
